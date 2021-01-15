@@ -33,7 +33,7 @@ SECRET_KEY = '902w**419b!-v#tk4!^nef=y)*()e^4w7x(96zt#)1+aihu7n2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gusto-12-01-2021.herokuapp.com']
+ALLOWED_HOSTS = ['gustocafe123321.herokuapp.com']
 
 
 # Application definition
