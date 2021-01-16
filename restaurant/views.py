@@ -15,6 +15,7 @@ def main_info(request):
     phone = 'Резервація: (099) 00-00-001'
     form_user_message = UserMessagesForm()
     categories = Category.objects.filter(is_visible=True)
+    categories = list(categories)
     for item in categories:
         dishes = Dish.objects.filter(category=item.pk)
         item.dishes = dishes
